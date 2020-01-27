@@ -27,7 +27,7 @@ register({
     await navigation.getRoute();
 
     if (process.env.NODE_ENV === 'production') {
-      ReactGA.initialize('UA-156480560-1');
+      ReactGA.initialize('UA-156480560-2');
       ReactGA.pageview(window.location.pathname + window.location.search);
       navigation._history.listen(location => {
         ReactGA.pageview(location.pathname + location.search);

@@ -13,9 +13,9 @@ function Bio(props) {
       <img src={profilePic} alt="Me" />
       <div>
         <div>
-          personal blog of <a href="https://twitter.com/smddzcy" rel="nofollow noopener noreferrer" target="_blank">Samed Düzçay</a>.
+          personal blog of <a href="https://www.linkedin.com/in/elifmerveakyol/" rel="nofollow noopener noreferrer" target="_blank">Elif Merve Topal</a>.
           <br />
-          software engineer, web enthusiast. shares articles, tutorials and his thoughts on various things.
+          product manager. shares articles and her thoughts on various things.
         </div>
         <div className={styles.headerLinks}>
           <Link href="/projects/" title="projects">Portfolio</Link>
