@@ -3,8 +3,8 @@
 :root {
   /* --primary-color: #d23669;
   --primary-color-light: rgb(255, 167, 196); */
-  --primary-color: #667DFF;
-  --primary-color-light: #667DFF;
+  --primary-color: #32395c;
+  --primary-color-light: #32395c;
 }
 
 :global * {
@@ -68,7 +68,7 @@
   font-weight: 900;
   line-height: 1.1;
   margin-top: 1.7rem;
-  margin-bottom: 2.4rem;  
+  margin-bottom: 2.4rem;
   text-rendering: optimizeLegibility;
 }
 
