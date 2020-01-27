@@ -1,8 +1,8 @@
 {
-  "name": "smddzcy.com",
+  "name": "elifmerve.com",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://smddzcy.com",
+  "homepage": "https://elifmerve.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -48,12 +48,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-import-resolver-node": "^0.3.2",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
     "gh-pages": "^2.1.1",
     "plop": "^2.4.0"
   }
