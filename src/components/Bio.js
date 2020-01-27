@@ -13,20 +13,18 @@ function Bio(props) {
       <img src={profilePic} alt="Me" />
       <div>
         <div>
-          personal blog of <a href="https://www.linkedin.com/in/elifmerveakyol/" rel="nofollow noopener noreferrer" target="_blank">Elif Merve Topal</a>.
-          <br />
-          product manager. shares articles and her thoughts on various things.
+          Product Management | Mobile Apps | Digital Marketing
         </div>
         <div className={styles.headerLinks}>
-          <Link href="/projects/" title="projects">Portfolio</Link>
+    //      <Link href="/projects/" title="projects">Portfolio</Link>
           <span className={styles.bull}>&bull;</span>
-          <a href="https://linkedin.com/in/smddzcy" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
+          <a href="https://linkedin.com/in/elifmerveakyol" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
           <span className={styles.bull}>&bull;</span>
-          <a href="https://github.com/smddzcy" rel="nofollow noopener noreferrer" target="_blank">GitHub</a>
+      //    <a href="https://github.com/smddzcy" rel="nofollow noopener noreferrer" target="_blank">GitHub</a>
           <span className={styles.bull}>&bull;</span>
-          <a href="https://twitter.com/smddzcy" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+          <a href="https://medium.com/@elifmtopal" rel="nofollow noopener noreferrer" target="_blank">Medium</a>
           <span className={styles.bull}>&bull;</span>
-          <a href="/cv/" title="CV">CV</a>
+          <a href="https://about.elifmerve.com" title="CV">CV</a>
         </div>
       </div>
     </div>

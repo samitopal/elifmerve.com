@@ -94,15 +94,15 @@ const routes = compose(
 
     // Miscellaneous pages can be added directly to the root switch.
     // eslint-disable-next-line import/no-cycle
-    '/tags': lazy(() => import('./tags')),
-    '/about': lazy(() => import('./about')),
-    '/travel-map': lazy(() => import('./travel-map')),
-    '/projects': lazy(() => import('./projects')),
+//    '/tags': lazy(() => import('./tags')),
+//    '/about': lazy(() => import('./about')),
+//    '/travel-map': lazy(() => import('./travel-map')),
+//    '/projects': lazy(() => import('./projects')),
 
     // Only the statically built copy of the RSS feed is intended to be opened,
     // but the route is defined here so that the static renderer will pick it
     // up.
-    '/rss': route(),
+//    '/rss': route(),
 
     '/404': route({
       title: 'Page not found',
