@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Link, useCurrentRoute } from 'react-navi';
-import { DiscussionEmbed } from 'disqus-react';
+//import { DiscussionEmbed } from 'disqus-react';
 import Helmet from 'react-helmet';
 import { camelCase } from 'change-case';
 import siteMetadata from '../siteMetadata';
@@ -12,14 +12,10 @@ import styles from './BlogPostLayout.module.css';
 
 function BlogPostLayout({ blogRoot }) {
   const { title, data, url } = useCurrentRoute();
-  const postUrl = `https://smddzcy.com${url.href}`;
-  const disqusConfig = {
-    url: postUrl,
-    identifier: data.slug,
-    title,
-  };
+  const postUrl = `https://elifmerve.com${url.href}`;
 
-  const imageUrl = 'https://smddzcy.com/post.png';
+
+  const imageUrl = 'https://elifmerve.com/post.png';
 
   return (
     <View>
@@ -70,7 +66,6 @@ function BlogPostLayout({ blogRoot }) {
           <MDX MDXComponent={MDXComponent} />
           <SocialShare url={postUrl} title={title} hashtags={data.tags.map(tag => camelCase(tag))} />
           <div style={{ marginTop: '1rem' }}>
-            <DiscussionEmbed shortname="smddzcy" config={disqusConfig} />
           </div>
           <footer className={styles.footer}>
             <h3 className={styles.title}>
