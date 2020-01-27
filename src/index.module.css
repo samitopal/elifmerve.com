@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i,900|Montserrat:900');
+
+:root {
+  /* --primary-color: #d23669;
+  --primary-color-light: rgb(255, 167, 196); */
+  --primary-color: #667DFF;
+  --primary-color-light: #667DFF;
+}
+
+:global * {
+  box-sizing: border-box;
+}
+
+:global html {
+  color: rgba(0, 0, 0, 0.9);
+  font: 100%/1.75 Morriweather, Georgia, serif;
+  overflow-x: hidden;
+}
+
+:global body {
+  font-kerning: normal;
+  font-family: 'Merriweather','Georgia',serif;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  position: relative;
+  overflow-x: hidden;
+}
+
+:global(pre),
+:global(code) {
+  font-family: Consolas, Menlo, Monaco, source-code-pro, "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+:global pre {
+  border-radius: 10px;
+  overflow: auto;
+  padding: 1em;
+}
+
+:global a {
+  color: var(--primary-color);
+}
+
+:global a:hover {
+  text-decoration: none;
+}
+
+:global p,
+:global pre,
+:global ul,
+:global ol {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
+
+:global img {
+  max-width: 100%;
+}
+
+:global h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;  
+  text-rendering: optimizeLegibility;
+}
+
+:global #disqus_thread {
+  overflow: hidden;
+}
+
+:global #disqus_thread iframe {
+  margin-bottom: -54px !important;
+}
+
+:global blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+:global blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+:global blockquote p {
+  display: inline;
+}
+
+:global hr {
+  background: hsla(0,0%,0%,0.2);
+  border: none;
+  height: 1px;
+  margin: 2rem 0;
+}
+
+:global .mb-175 {
+  margin-bottom: 1.75rem;
+}
