@@ -36,22 +36,6 @@ function BlogIndexPage({
       }
       <footer className={styles.footer}>
         <div>
-          <a
-            href="./rss.xml"
-            target="_blank"
-            style={{ float: 'right' }}
-          >
-            RSS
-          </a>
-          <Link href="/about">
-            About
-          </Link> &bull;{' '}
-          <Link href="/travel-map">
-            Travel Map
-          </Link> &bull;{' '}
-          <Link href="/tags">
-            Tags
-          </Link>
         </div>
       </footer>
     </div>

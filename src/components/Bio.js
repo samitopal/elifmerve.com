@@ -19,7 +19,6 @@ function Bio(props) {
           <span className={styles.bull}>&bull;</span>
           <a href="https://linkedin.com/in/elifmerveakyol" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
           <span className={styles.bull}>&bull;</span>
-          <span className={styles.bull}>&bull;</span>
           <a href="https://medium.com/@elifmtopal" rel="nofollow noopener noreferrer" target="_blank">Medium</a>
           <span className={styles.bull}>&bull;</span>
           <a href="https://about.elifmerve.com" title="CV">CV</a>
